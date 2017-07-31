@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProductCell" rowHeight="143" id="KGk-i7-Jjw" customClass="ProductTableViewCell" customModule="c0695372_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="142.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-image" translatesAutoresizingMaskIntoConstraints="NO" id="EKm-wS-PJX">
+                        <rect key="frame" x="8" y="8" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="SqW-t8-Xs1"/>
+                            <constraint firstAttribute="height" constant="100" id="iR4-Ze-bgv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Microsoft Xbox LIVE 3 Month Gold Membership (Physical Card) - Xbox One 3 Months Edition&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7n6-XS-avq">
+                        <rect key="frame" x="116" y="8" width="196" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="RL1-I8-Lwi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsE-lf-ifj">
+                        <rect key="frame" x="8" y="116" width="75.5" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28.07" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDr-gj-kkO">
+                        <rect key="frame" x="269" y="114" width="43" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="VsE-lf-ifj" secondAttribute="bottom" constant="5.5" id="1mZ-G2-Lfz"/>
+                    <constraint firstItem="7n6-XS-avq" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="407-zE-vBN"/>
+                    <constraint firstItem="7n6-XS-avq" firstAttribute="leading" secondItem="EKm-wS-PJX" secondAttribute="trailing" constant="8" id="6T0-i2-ifw"/>
+                    <constraint firstItem="BDr-gj-kkO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VsE-lf-ifj" secondAttribute="trailing" constant="8" id="OlM-AR-9is"/>
+                    <constraint firstItem="7n6-XS-avq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Vg0-9j-a8y"/>
+                    <constraint firstItem="EKm-wS-PJX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Z6u-2q-Eab"/>
+                    <constraint firstItem="VsE-lf-ifj" firstAttribute="top" secondItem="EKm-wS-PJX" secondAttribute="bottom" constant="8" id="gH4-Ez-Ojg"/>
+                    <constraint firstItem="VsE-lf-ifj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="gzw-X0-ILi"/>
+                    <constraint firstAttribute="bottom" secondItem="BDr-gj-kkO" secondAttribute="bottom" constant="8.5" id="k6U-s3-1cV"/>
+                    <constraint firstItem="EKm-wS-PJX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="n9r-CJ-Zt8"/>
+                    <constraint firstAttribute="trailing" secondItem="BDr-gj-kkO" secondAttribute="trailing" constant="8" id="ns2-b2-xA5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryNameLabel" destination="VsE-lf-ifj" id="SXE-vE-ew6"/>
+                <outlet property="priceLabel" destination="BDr-gj-kkO" id="jBe-ST-HWb"/>
+                <outlet property="productImageView" destination="EKm-wS-PJX" id="LNH-eF-eod"/>
+                <outlet property="productNameLabel" destination="7n6-XS-avq" id="uWP-3o-KIt"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="103.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder-image" width="800" height="600"/>
+    </resources>
+</document>
